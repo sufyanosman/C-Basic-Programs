@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+    for(a = 0; a < 10; a++) {
+        printf("My name is Sufyan Osman, folks!(FOR-LOOP)\n");
+    }    
+    
+    while(b < 10) {
+        printf("My name is Sufyan Osman(WHILE-LOOP)\n");
+        b++;
+    }
+    
+    do {
+        printf("My name is Sufyan Osman(DO-WHILE)\n");
+        c++;
+    }
+    while(c < 10);
+}
